@@ -5,6 +5,7 @@ import Rebecca from '../../assets/images/rebbecca.png'
 import Lindsey from '../../assets/images/lindsey.png'
 import Sidebar from '../include/Sidebar'
 import { Bar } from 'react-chartjs-2'
+import PieChart from '../screens/PieChart'
 
 
 export default function Dashboard() {
@@ -196,15 +197,7 @@ export default function Dashboard() {
                                 <CTop>Task</CTop>
                                 <CSmall>Show: </CSmall>
                             </ChartTop>
-                            <div>
-                                <Bar 
-                                    data={{
-                                        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-                                    }}
-                                    width={400}
-                                />
-                            </div>
-                            
+                            <PieChart />
                         </PieChart1>
                     </Dright>
                 </AllItems>

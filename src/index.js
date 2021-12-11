@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { useState } from "react";import { Pie } from "@visx/shape";
+import { Group } from "@visx/group";
+import { Text } from "@visx/text";
 
 ReactDOM.render(
   <React.StrictMode>
